@@ -1,5 +1,6 @@
 package Task_L16;
 
+import io.qameta.allure.Epic;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,6 +14,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 
+@Epic("Форма оплаты. Проверка данных онлайн платежа в модальном окне.")
 public class FormOfPaymentTest {
         public WebDriver driver;
         public WebDriverWait wait;
@@ -94,8 +96,6 @@ public class FormOfPaymentTest {
 
     @AfterClass
     public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-        }
+        driver.quit();
     }
 }

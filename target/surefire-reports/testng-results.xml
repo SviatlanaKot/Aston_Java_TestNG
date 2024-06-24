@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="27" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-24T23:47:08 MSK" name="Surefire suite" finished-at="2024-06-24T23:48:18 MSK" duration-ms="69820">
+    <groups>
+    </groups>
+    <test started-at="2024-06-24T23:47:08 MSK" name="Surefire test" finished-at="2024-06-24T23:48:18 MSK" duration-ms="69820">
+      <class name="Task_L16.PayFormTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:47:31 MSK" name="setup" finished-at="2024-06-24T23:47:33 MSK" duration-ms="1957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckFieldPlaceholdersForArrears(java.lang.String,java.lang.String)[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:47:33 MSK" name="testCheckFieldPlaceholdersForArrears" data-provider="fieldPlaceholdersForArrears" finished-at="2024-06-24T23:47:35 MSK" duration-ms="1456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[score-arrears]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Номер счета на 2073]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckFieldPlaceholdersForArrears -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:47:35 MSK" name="tearDown" finished-at="2024-06-24T23:47:35 MSK" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:47:35 MSK" name="setup" finished-at="2024-06-24T23:47:37 MSK" duration-ms="2012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckFieldPlaceholdersForArrears(java.lang.String,java.lang.String)[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:47:37 MSK" name="testCheckFieldPlaceholdersForArrears" data-provider="fieldPlaceholdersForArrears" finished-at="2024-06-24T23:47:39 MSK" duration-ms="1483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arrears-sum]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Сумма]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckFieldPlaceholdersForArrears -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:47:39 MSK" name="tearDown" finished-at="2024-06-24T23:47:39 MSK" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:47:39 MSK" name="setup" finished-at="2024-06-24T23:47:41 MSK" duration-ms="1954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckFieldPlaceholdersForArrears(java.lang.String,java.lang.String)[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:47:41 MSK" name="testCheckFieldPlaceholdersForArrears" data-provider="fieldPlaceholdersForArrears" finished-at="2024-06-24T23:47:42 MSK" duration-ms="1516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arrears-email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[E-mail для отправки чека]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckFieldPlaceholdersForArrears -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:47:42 MSK" name="tearDown" finished-at="2024-06-24T23:47:43 MSK" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:47:43 MSK" name="setup" finished-at="2024-06-24T23:47:45 MSK" duration-ms="2026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckFieldPlaceholdersForCommunicationServices(java.lang.String,java.lang.String)[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:47:45 MSK" name="testCheckFieldPlaceholdersForCommunicationServices" data-provider="fieldPlaceholdersForCommunicationServices" finished-at="2024-06-24T23:47:46 MSK" duration-ms="1242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[connection-phone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Номер телефона]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckFieldPlaceholdersForCommunicationServices -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:47:46 MSK" name="tearDown" finished-at="2024-06-24T23:47:47 MSK" duration-ms="1107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:47:47 MSK" name="setup" finished-at="2024-06-24T23:47:49 MSK" duration-ms="1992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckFieldPlaceholdersForCommunicationServices(java.lang.String,java.lang.String)[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:47:49 MSK" name="testCheckFieldPlaceholdersForCommunicationServices" data-provider="fieldPlaceholdersForCommunicationServices" finished-at="2024-06-24T23:47:50 MSK" duration-ms="1443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[connection-sum]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Сумма]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckFieldPlaceholdersForCommunicationServices -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:47:50 MSK" name="tearDown" finished-at="2024-06-24T23:47:51 MSK" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:47:51 MSK" name="setup" finished-at="2024-06-24T23:47:53 MSK" duration-ms="2045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckFieldPlaceholdersForCommunicationServices(java.lang.String,java.lang.String)[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:47:53 MSK" name="testCheckFieldPlaceholdersForCommunicationServices" data-provider="fieldPlaceholdersForCommunicationServices" finished-at="2024-06-24T23:47:54 MSK" duration-ms="1237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[connection-email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[E-mail для отправки чека]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckFieldPlaceholdersForCommunicationServices -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:47:54 MSK" name="tearDown" finished-at="2024-06-24T23:47:55 MSK" duration-ms="1131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:47:55 MSK" name="setup" finished-at="2024-06-24T23:47:57 MSK" duration-ms="2044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckFieldPlaceholdersForHomeInternet(java.lang.String,java.lang.String)[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:47:57 MSK" name="testCheckFieldPlaceholdersForHomeInternet" data-provider="fieldPlaceholdersForHomeInternet" finished-at="2024-06-24T23:47:59 MSK" duration-ms="1474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[internet-phone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Номер абонента]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckFieldPlaceholdersForHomeInternet -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:47:59 MSK" name="tearDown" finished-at="2024-06-24T23:47:59 MSK" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:47:59 MSK" name="setup" finished-at="2024-06-24T23:48:01 MSK" duration-ms="2029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckFieldPlaceholdersForHomeInternet(java.lang.String,java.lang.String)[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:48:01 MSK" name="testCheckFieldPlaceholdersForHomeInternet" data-provider="fieldPlaceholdersForHomeInternet" finished-at="2024-06-24T23:48:02 MSK" duration-ms="1368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[internet-sum]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Сумма]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckFieldPlaceholdersForHomeInternet -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:48:02 MSK" name="tearDown" finished-at="2024-06-24T23:48:03 MSK" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:48:03 MSK" name="setup" finished-at="2024-06-24T23:48:05 MSK" duration-ms="2003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckFieldPlaceholdersForHomeInternet(java.lang.String,java.lang.String)[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:48:05 MSK" name="testCheckFieldPlaceholdersForHomeInternet" data-provider="fieldPlaceholdersForHomeInternet" finished-at="2024-06-24T23:48:06 MSK" duration-ms="1197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[internet-email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[E-mail для отправки чека]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckFieldPlaceholdersForHomeInternet -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:48:06 MSK" name="tearDown" finished-at="2024-06-24T23:48:06 MSK" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:48:06 MSK" name="setup" finished-at="2024-06-24T23:48:08 MSK" duration-ms="1860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckFieldPlaceholdersForInstallment(java.lang.String,java.lang.String)[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:48:08 MSK" name="testCheckFieldPlaceholdersForInstallment" data-provider="fieldPlaceholdersForInstallment" finished-at="2024-06-24T23:48:09 MSK" duration-ms="1540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[score-instalment]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Номер счета на 44]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckFieldPlaceholdersForInstallment -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:48:09 MSK" name="tearDown" finished-at="2024-06-24T23:48:10 MSK" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:48:10 MSK" name="setup" finished-at="2024-06-24T23:48:12 MSK" duration-ms="1988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckFieldPlaceholdersForInstallment(java.lang.String,java.lang.String)[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:48:12 MSK" name="testCheckFieldPlaceholdersForInstallment" data-provider="fieldPlaceholdersForInstallment" finished-at="2024-06-24T23:48:13 MSK" duration-ms="1537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[instalment-sum]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Сумма]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckFieldPlaceholdersForInstallment -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:48:13 MSK" name="tearDown" finished-at="2024-06-24T23:48:14 MSK" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:48:14 MSK" name="setup" finished-at="2024-06-24T23:48:16 MSK" duration-ms="1989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckFieldPlaceholdersForInstallment(java.lang.String,java.lang.String)[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:48:16 MSK" name="testCheckFieldPlaceholdersForInstallment" data-provider="fieldPlaceholdersForInstallment" finished-at="2024-06-24T23:48:17 MSK" duration-ms="1195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[instalment-email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[E-mail для отправки чека]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckFieldPlaceholdersForInstallment -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Task_L16.PayFormTest@39ad977d]" started-at="2024-06-24T23:48:17 MSK" name="tearDown" finished-at="2024-06-24T23:48:18 MSK" duration-ms="1121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Task_L16.PayFormTest -->
+      <class name="PostmanEchoTest">
+        <test-method signature="whenCreateBar_thenStatus200()[pri:0, instance:PostmanEchoTest@3eeb318f]" started-at="2024-06-24T23:47:17 MSK" name="whenCreateBar_thenStatus200" finished-at="2024-06-24T23:47:21 MSK" duration-ms="3535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenCreateBar_thenStatus200 -->
+        <test-method signature="whenCreateValue_thenStatus200()[pri:0, instance:PostmanEchoTest@3eeb318f]" started-at="2024-06-24T23:47:21 MSK" name="whenCreateValue_thenStatus200" finished-at="2024-06-24T23:47:22 MSK" duration-ms="765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenCreateValue_thenStatus200 -->
+        <test-method signature="whenDeleteRequestBody_thenStatus200()[pri:0, instance:PostmanEchoTest@3eeb318f]" started-at="2024-06-24T23:47:22 MSK" name="whenDeleteRequestBody_thenStatus200" finished-at="2024-06-24T23:47:22 MSK" duration-ms="792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenDeleteRequestBody_thenStatus200 -->
+        <test-method signature="whenGet_thenStatus200()[pri:0, instance:PostmanEchoTest@3eeb318f]" started-at="2024-06-24T23:47:22 MSK" name="whenGet_thenStatus200" finished-at="2024-06-24T23:47:23 MSK" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenGet_thenStatus200 -->
+        <test-method signature="whenPatchRequestBody_thenStatus200()[pri:0, instance:PostmanEchoTest@3eeb318f]" started-at="2024-06-24T23:47:23 MSK" name="whenPatchRequestBody_thenStatus200" finished-at="2024-06-24T23:47:24 MSK" duration-ms="767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenPatchRequestBody_thenStatus200 -->
+        <test-method signature="whenPutRequestBody_thenStatus200()[pri:0, instance:PostmanEchoTest@3eeb318f]" started-at="2024-06-24T23:47:24 MSK" name="whenPutRequestBody_thenStatus200" finished-at="2024-06-24T23:47:25 MSK" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenPutRequestBody_thenStatus200 -->
+      </class> <!-- PostmanEchoTest -->
+      <class name="FactorialTest">
+        <test-method signature="testFactorialOfFive()[pri:0, instance:FactorialTest@3c989952]" started-at="2024-06-24T23:47:08 MSK" name="testFactorialOfFive" finished-at="2024-06-24T23:47:08 MSK" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFactorialOfFive -->
+        <test-method signature="testFactorialOfNegativeNumber()[pri:0, instance:FactorialTest@3c989952]" started-at="2024-06-24T23:47:08 MSK" name="testFactorialOfNegativeNumber" finished-at="2024-06-24T23:47:08 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFactorialOfNegativeNumber -->
+        <test-method signature="testFactorialOfOne()[pri:0, instance:FactorialTest@3c989952]" started-at="2024-06-24T23:47:08 MSK" name="testFactorialOfOne" finished-at="2024-06-24T23:47:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFactorialOfOne -->
+        <test-method signature="testFactorialOfZero()[pri:0, instance:FactorialTest@3c989952]" started-at="2024-06-24T23:47:08 MSK" name="testFactorialOfZero" finished-at="2024-06-24T23:47:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFactorialOfZero -->
+      </class> <!-- FactorialTest -->
+      <class name="Task_L16.FormOfPaymentTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Task_L16.FormOfPaymentTest@20a14b55]" started-at="2024-06-24T23:47:25 MSK" name="setup" finished-at="2024-06-24T23:47:27 MSK" duration-ms="2115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckTheButtonOperation()[pri:0, instance:Task_L16.FormOfPaymentTest@20a14b55]" started-at="2024-06-24T23:47:27 MSK" name="testCheckTheButtonOperation" finished-at="2024-06-24T23:47:31 MSK" duration-ms="4377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckTheButtonOperation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Task_L16.FormOfPaymentTest@20a14b55]" started-at="2024-06-24T23:47:31 MSK" name="tearDown" finished-at="2024-06-24T23:47:31 MSK" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Task_L16.FormOfPaymentTest -->
+      <class name="MtsByTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:MtsByTest@17a87e37]" started-at="2024-06-24T23:47:08 MSK" name="setup" finished-at="2024-06-24T23:47:11 MSK" duration-ms="2713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckBlockName()[pri:0, instance:MtsByTest@17a87e37]" started-at="2024-06-24T23:47:11 MSK" name="testCheckBlockName" finished-at="2024-06-24T23:47:11 MSK" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckBlockName -->
+        <test-method signature="testCheckForPaymentSystemLogos()[pri:0, instance:MtsByTest@17a87e37]" started-at="2024-06-24T23:47:11 MSK" name="testCheckForPaymentSystemLogos" finished-at="2024-06-24T23:47:12 MSK" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckForPaymentSystemLogos -->
+        <test-method signature="testCheckLink()[pri:0, instance:MtsByTest@17a87e37]" started-at="2024-06-24T23:47:12 MSK" name="testCheckLink" finished-at="2024-06-24T23:47:13 MSK" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckLink -->
+        <test-method signature="testCheckTheButtonOperation()[pri:0, instance:MtsByTest@17a87e37]" started-at="2024-06-24T23:47:13 MSK" name="testCheckTheButtonOperation" finished-at="2024-06-24T23:47:17 MSK" duration-ms="4011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckTheButtonOperation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MtsByTest@17a87e37]" started-at="2024-06-24T23:47:17 MSK" name="tearDown" finished-at="2024-06-24T23:47:17 MSK" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MtsByTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

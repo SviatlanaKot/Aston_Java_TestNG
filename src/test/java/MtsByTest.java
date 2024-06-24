@@ -1,3 +1,4 @@
+import io.qameta.allure.Epic;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,6 +14,8 @@ import org.testng.annotations.Test;
 import java.util.List;
 import static org.testng.Assert.assertTrue;
 
+
+@Epic("Проверка формы онлайн оплаты.")
 public class MtsByTest {
         public WebDriver driver;
         public WebDriverWait wait;
@@ -78,8 +81,6 @@ public class MtsByTest {
 
     @AfterClass
     public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-        }
+        driver.quit();
     }
 }

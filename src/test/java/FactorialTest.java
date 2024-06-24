@@ -1,8 +1,11 @@
+import io.qameta.allure.Epic;
 import org.example.Factorial;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
 
+
+@Epic("Проверка вычисления факториала числа.")
 public class FactorialTest {
     @Test
     public void testFactorialOfZero() {

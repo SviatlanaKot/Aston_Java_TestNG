@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">27 methods,   27 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="MtsByTest" class="method navigator-link" hash-for-method="testCheckBlockName">testCheckBlockName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Task_L16.PayFormTest" class="method navigator-link" hash-for-method="testCheckFieldPlaceholdersForArrears(arrears-email, E-mail для отправки чека)">testCheckFieldPlaceholdersForArrears(arrears-email, E-mail для отправки чека)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Task_L16.PayFormTest" class="method navigator-link" hash-for-method="testCheckFieldPlaceholdersForArrears(score-arrears, Номер счета на 2073)">testCheckFieldPlaceholdersForArrears(score-arrears, Номер счета на 2073)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Task_L16.PayFormTest" class="method navigator-link" hash-for-method="testCheckFieldPlaceholdersForArrears(arrears-sum, Сумма)">testCheckFieldPlaceholdersForArrears(arrears-sum, Сумма)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Task_L16.PayFormTest" class="method navigator-link" hash-for-method="testCheckFieldPlaceholdersForCommunicationServices(connection-email, E-mail для отправки чека)">testCheckFieldPlaceholdersForCommunicationServices(connection-email, E-mail для отправки чека)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Task_L16.PayFormTest" class="method navigator-link" hash-for-method="testCheckFieldPlaceholdersForCommunicationServices(connection-phone, Номер телефона)">testCheckFieldPlaceholdersForCommunicationServices(connection-phone, Номер телефона)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Task_L16.PayFormTest" class="method navigator-link" hash-for-method="testCheckFieldPlaceholdersForCommunicationServices(connection-sum, Сумма)">testCheckFieldPlaceholdersForCommunicationServices(connection-sum, Сумма)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Task_L16.PayFormTest" class="method navigator-link" hash-for-method="testCheckFieldPlaceholdersForHomeInternet(internet-email, E-mail для отправки чека)">testCheckFieldPlaceholdersForHomeInternet(internet-email, E-mail для отправки чека)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Task_L16.PayFormTest" class="method navigator-link" hash-for-method="testCheckFieldPlaceholdersForHomeInternet(internet-sum, Сумма)">testCheckFieldPlaceholdersForHomeInternet(internet-sum, Сумма)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Task_L16.PayFormTest" class="method navigator-link" hash-for-method="testCheckFieldPlaceholdersForHomeInternet(internet-phone, Номер абонента)">testCheckFieldPlaceholdersForHomeInternet(internet-phone, Номер абонента)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Task_L16.PayFormTest" class="method navigator-link" hash-for-method="testCheckFieldPlaceholdersForInstallment(instalment-sum, Сумма)">testCheckFieldPlaceholdersForInstallment(instalment-sum, Сумма)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Task_L16.PayFormTest" class="method navigator-link" hash-for-method="testCheckFieldPlaceholdersForInstallment(score-instalment, Номер счета на 44)">testCheckFieldPlaceholdersForInstallment(score-instalment, Номер счета на 44)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Task_L16.PayFormTest" class="method navigator-link" hash-for-method="testCheckFieldPlaceholdersForInstallment(instalment-email, E-mail для отправки чека)">testCheckFieldPlaceholdersForInstallment(instalment-email, E-mail для отправки чека)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="MtsByTest" class="method navigator-link" hash-for-method="testCheckForPaymentSystemLogos">testCheckForPaymentSystemLogos</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="MtsByTest" class="method navigator-link" hash-for-method="testCheckLink">testCheckLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Task_L16.FormOfPaymentTest" class="method navigator-link" hash-for-method="testCheckTheButtonOperation">testCheckTheButtonOperation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="MtsByTest" class="method navigator-link" hash-for-method="testCheckTheButtonOperation">testCheckTheButtonOperation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="FactorialTest" class="method navigator-link" hash-for-method="testFactorialOfFive">testFactorialOfFive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="FactorialTest" class="method navigator-link" hash-for-method="testFactorialOfNegativeNumber">testFactorialOfNegativeNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="FactorialTest" class="method navigator-link" hash-for-method="testFactorialOfOne">testFactorialOfOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="FactorialTest" class="method navigator-link" hash-for-method="testFactorialOfZero">testFactorialOfZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="PostmanEchoTest" class="method navigator-link" hash-for-method="whenCreateBar_thenStatus200">whenCreateBar_thenStatus200</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="PostmanEchoTest" class="method navigator-link" hash-for-method="whenCreateValue_thenStatus200">whenCreateValue_thenStatus200</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="PostmanEchoTest" class="method navigator-link" hash-for-method="whenDeleteRequestBody_thenStatus200">whenDeleteRequestBody_thenStatus200</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="PostmanEchoTest" class="method navigator-link" hash-for-method="whenGet_thenStatus200">whenGet_thenStatus200</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="PostmanEchoTest" class="method navigator-link" hash-for-method="whenPatchRequestBody_thenStatus200">whenPatchRequestBody_thenStatus200</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="PostmanEchoTest" class="method navigator-link" hash-for-method="whenPutRequestBody_thenStatus200">whenPutRequestBody_thenStatus200</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">FactorialTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFactorialOfFive">
+                  </a> <!-- testFactorialOfFive -->
+                  <span class="method-name">testFactorialOfFive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFactorialOfNegativeNumber">
+                  </a> <!-- testFactorialOfNegativeNumber -->
+                  <span class="method-name">testFactorialOfNegativeNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFactorialOfOne">
+                  </a> <!-- testFactorialOfOne -->
+                  <span class="method-name">testFactorialOfOne</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFactorialOfZero">
+                  </a> <!-- testFactorialOfZero -->
+                  <span class="method-name">testFactorialOfZero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Task_L16.FormOfPaymentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckTheButtonOperation">
+                  </a> <!-- testCheckTheButtonOperation -->
+                  <span class="method-name">testCheckTheButtonOperation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MtsByTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckBlockName">
+                  </a> <!-- testCheckBlockName -->
+                  <span class="method-name">testCheckBlockName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckForPaymentSystemLogos">
+                  </a> <!-- testCheckForPaymentSystemLogos -->
+                  <span class="method-name">testCheckForPaymentSystemLogos</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckLink">
+                  </a> <!-- testCheckLink -->
+                  <span class="method-name">testCheckLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckTheButtonOperation">
+                  </a> <!-- testCheckTheButtonOperation -->
+                  <span class="method-name">testCheckTheButtonOperation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Task_L16.PayFormTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckFieldPlaceholdersForArrears(arrears-email, E-mail для отправки чека)">
+                  </a> <!-- testCheckFieldPlaceholdersForArrears(arrears-email, E-mail для отправки чека) -->
+                  <span class="method-name">testCheckFieldPlaceholdersForArrears</span>
+                  <span class="parameters">(arrears-email,E-mail для отправки чека)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckFieldPlaceholdersForArrears(score-arrears, Номер счета на 2073)">
+                  </a> <!-- testCheckFieldPlaceholdersForArrears(score-arrears, Номер счета на 2073) -->
+                  <span class="method-name">testCheckFieldPlaceholdersForArrears</span>
+                  <span class="parameters">(score-arrears,Номер счета на 2073)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckFieldPlaceholdersForArrears(arrears-sum, Сумма)">
+                  </a> <!-- testCheckFieldPlaceholdersForArrears(arrears-sum, Сумма) -->
+                  <span class="method-name">testCheckFieldPlaceholdersForArrears</span>
+                  <span class="parameters">(arrears-sum,Сумма)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckFieldPlaceholdersForCommunicationServices(connection-email, E-mail для отправки чека)">
+                  </a> <!-- testCheckFieldPlaceholdersForCommunicationServices(connection-email, E-mail для отправки чека) -->
+                  <span class="method-name">testCheckFieldPlaceholdersForCommunicationServices</span>
+                  <span class="parameters">(connection-email,E-mail для отправки чека)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckFieldPlaceholdersForCommunicationServices(connection-phone, Номер телефона)">
+                  </a> <!-- testCheckFieldPlaceholdersForCommunicationServices(connection-phone, Номер телефона) -->
+                  <span class="method-name">testCheckFieldPlaceholdersForCommunicationServices</span>
+                  <span class="parameters">(connection-phone,Номер телефона)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckFieldPlaceholdersForCommunicationServices(connection-sum, Сумма)">
+                  </a> <!-- testCheckFieldPlaceholdersForCommunicationServices(connection-sum, Сумма) -->
+                  <span class="method-name">testCheckFieldPlaceholdersForCommunicationServices</span>
+                  <span class="parameters">(connection-sum,Сумма)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckFieldPlaceholdersForHomeInternet(internet-email, E-mail для отправки чека)">
+                  </a> <!-- testCheckFieldPlaceholdersForHomeInternet(internet-email, E-mail для отправки чека) -->
+                  <span class="method-name">testCheckFieldPlaceholdersForHomeInternet</span>
+                  <span class="parameters">(internet-email,E-mail для отправки чека)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckFieldPlaceholdersForHomeInternet(internet-sum, Сумма)">
+                  </a> <!-- testCheckFieldPlaceholdersForHomeInternet(internet-sum, Сумма) -->
+                  <span class="method-name">testCheckFieldPlaceholdersForHomeInternet</span>
+                  <span class="parameters">(internet-sum,Сумма)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckFieldPlaceholdersForHomeInternet(internet-phone, Номер абонента)">
+                  </a> <!-- testCheckFieldPlaceholdersForHomeInternet(internet-phone, Номер абонента) -->
+                  <span class="method-name">testCheckFieldPlaceholdersForHomeInternet</span>
+                  <span class="parameters">(internet-phone,Номер абонента)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckFieldPlaceholdersForInstallment(instalment-sum, Сумма)">
+                  </a> <!-- testCheckFieldPlaceholdersForInstallment(instalment-sum, Сумма) -->
+                  <span class="method-name">testCheckFieldPlaceholdersForInstallment</span>
+                  <span class="parameters">(instalment-sum,Сумма)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckFieldPlaceholdersForInstallment(score-instalment, Номер счета на 44)">
+                  </a> <!-- testCheckFieldPlaceholdersForInstallment(score-instalment, Номер счета на 44) -->
+                  <span class="method-name">testCheckFieldPlaceholdersForInstallment</span>
+                  <span class="parameters">(score-instalment,Номер счета на 44)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckFieldPlaceholdersForInstallment(instalment-email, E-mail для отправки чека)">
+                  </a> <!-- testCheckFieldPlaceholdersForInstallment(instalment-email, E-mail для отправки чека) -->
+                  <span class="method-name">testCheckFieldPlaceholdersForInstallment</span>
+                  <span class="parameters">(instalment-email,E-mail для отправки чека)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PostmanEchoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="whenCreateBar_thenStatus200">
+                  </a> <!-- whenCreateBar_thenStatus200 -->
+                  <span class="method-name">whenCreateBar_thenStatus200</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="whenCreateValue_thenStatus200">
+                  </a> <!-- whenCreateValue_thenStatus200 -->
+                  <span class="method-name">whenCreateValue_thenStatus200</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="whenDeleteRequestBody_thenStatus200">
+                  </a> <!-- whenDeleteRequestBody_thenStatus200 -->
+                  <span class="method-name">whenDeleteRequestBody_thenStatus200</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="whenGet_thenStatus200">
+                  </a> <!-- whenGet_thenStatus200 -->
+                  <span class="method-name">whenGet_thenStatus200</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="whenPatchRequestBody_thenStatus200">
+                  </a> <!-- whenPatchRequestBody_thenStatus200 -->
+                  <span class="method-name">whenPatchRequestBody_thenStatus200</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="whenPutRequestBody_thenStatus200">
+                  </a> <!-- whenPutRequestBody_thenStatus200 -->
+                  <span class="method-name">whenPutRequestBody_thenStatus200</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;FactorialTest&quot;/&gt;
+      &lt;class name=&quot;MtsByTest&quot;/&gt;
+      &lt;class name=&quot;PostmanEchoTest&quot;/&gt;
+      &lt;class name=&quot;Task_L16.FormOfPaymentTest&quot;/&gt;
+      &lt;class name=&quot;Task_L16.PayFormTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(27);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCheckTheButtonOperation')
+data.setCell(0, 2, 'Task_L16.FormOfPaymentTest')
+data.setCell(0, 3, 4377);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCheckTheButtonOperation')
+data.setCell(1, 2, 'MtsByTest')
+data.setCell(1, 3, 4011);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'whenCreateBar_thenStatus200')
+data.setCell(2, 2, 'PostmanEchoTest')
+data.setCell(2, 3, 3535);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCheckFieldPlaceholdersForInstallment')
+data.setCell(3, 2, 'Task_L16.PayFormTest')
+data.setCell(3, 3, 1540);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCheckFieldPlaceholdersForInstallment')
+data.setCell(4, 2, 'Task_L16.PayFormTest')
+data.setCell(4, 3, 1537);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testCheckFieldPlaceholdersForArrears')
+data.setCell(5, 2, 'Task_L16.PayFormTest')
+data.setCell(5, 3, 1516);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testCheckFieldPlaceholdersForArrears')
+data.setCell(6, 2, 'Task_L16.PayFormTest')
+data.setCell(6, 3, 1483);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testCheckFieldPlaceholdersForHomeInternet')
+data.setCell(7, 2, 'Task_L16.PayFormTest')
+data.setCell(7, 3, 1474);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testCheckFieldPlaceholdersForArrears')
+data.setCell(8, 2, 'Task_L16.PayFormTest')
+data.setCell(8, 3, 1456);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testCheckFieldPlaceholdersForCommunicationServices')
+data.setCell(9, 2, 'Task_L16.PayFormTest')
+data.setCell(9, 3, 1443);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testCheckFieldPlaceholdersForHomeInternet')
+data.setCell(10, 2, 'Task_L16.PayFormTest')
+data.setCell(10, 3, 1368);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testCheckFieldPlaceholdersForCommunicationServices')
+data.setCell(11, 2, 'Task_L16.PayFormTest')
+data.setCell(11, 3, 1242);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testCheckFieldPlaceholdersForCommunicationServices')
+data.setCell(12, 2, 'Task_L16.PayFormTest')
+data.setCell(12, 3, 1237);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testCheckFieldPlaceholdersForHomeInternet')
+data.setCell(13, 2, 'Task_L16.PayFormTest')
+data.setCell(13, 3, 1197);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testCheckFieldPlaceholdersForInstallment')
+data.setCell(14, 2, 'Task_L16.PayFormTest')
+data.setCell(14, 3, 1195);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testCheckForPaymentSystemLogos')
+data.setCell(15, 2, 'MtsByTest')
+data.setCell(15, 3, 982);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testCheckLink')
+data.setCell(16, 2, 'MtsByTest')
+data.setCell(16, 3, 891);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'whenDeleteRequestBody_thenStatus200')
+data.setCell(17, 2, 'PostmanEchoTest')
+data.setCell(17, 3, 792);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'whenPatchRequestBody_thenStatus200')
+data.setCell(18, 2, 'PostmanEchoTest')
+data.setCell(18, 3, 767);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'whenCreateValue_thenStatus200')
+data.setCell(19, 2, 'PostmanEchoTest')
+data.setCell(19, 3, 765);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'whenGet_thenStatus200')
+data.setCell(20, 2, 'PostmanEchoTest')
+data.setCell(20, 3, 747);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'whenPutRequestBody_thenStatus200')
+data.setCell(21, 2, 'PostmanEchoTest')
+data.setCell(21, 3, 736);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testCheckBlockName')
+data.setCell(22, 2, 'MtsByTest')
+data.setCell(22, 3, 120);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testFactorialOfFive')
+data.setCell(23, 2, 'FactorialTest')
+data.setCell(23, 3, 29);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testFactorialOfNegativeNumber')
+data.setCell(24, 2, 'FactorialTest')
+data.setCell(24, 3, 3);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testFactorialOfOne')
+data.setCell(25, 2, 'FactorialTest')
+data.setCell(25, 3, 2);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testFactorialOfZero')
+data.setCell(26, 2, 'FactorialTest')
+data.setCell(26, 3, 2);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">FactorialTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFactorialOfFive</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFactorialOfNegativeNumber</span>
+                <span class="method-start">75 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFactorialOfOne</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFactorialOfZero</span>
+                <span class="method-start">84 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MtsByTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">94 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCheckBlockName</span>
+                <span class="method-start">2813 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCheckForPaymentSystemLogos</span>
+                <span class="method-start">2937 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCheckLink</span>
+                <span class="method-start">3921 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCheckTheButtonOperation</span>
+                <span class="method-start">4814 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8827 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostmanEchoTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">whenCreateBar_thenStatus200</span>
+                <span class="method-start">9124 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">whenCreateValue_thenStatus200</span>
+                <span class="method-start">12662 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">whenDeleteRequestBody_thenStatus200</span>
+                <span class="method-start">13431 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">whenGet_thenStatus200</span>
+                <span class="method-start">14226 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">whenPatchRequestBody_thenStatus200</span>
+                <span class="method-start">14977 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">whenPutRequestBody_thenStatus200</span>
+                <span class="method-start">15746 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Task_L16.FormOfPaymentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">16483 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCheckTheButtonOperation</span>
+                <span class="method-start">18599 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22978 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Task_L16.PayFormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">23265 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckFieldPlaceholdersForArrears(score-arrears, Номер счета на 2073)</span>
+                <span class="method-start">25237 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26698 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">26980 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckFieldPlaceholdersForArrears(arrears-sum, Сумма)</span>
+                <span class="method-start">28993 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">30477 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">30760 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckFieldPlaceholdersForArrears(arrears-email, E-mail для отправки чека)</span>
+                <span class="method-start">32716 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34234 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">34529 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckFieldPlaceholdersForCommunicationServices(connection-phone, Номер телефона)</span>
+                <span class="method-start">36556 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37800 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">38909 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckFieldPlaceholdersForCommunicationServices(connection-sum, Сумма)</span>
+                <span class="method-start">40902 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42347 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">42642 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckFieldPlaceholdersForCommunicationServices(connection-email, E-mail для отправки чека)</span>
+                <span class="method-start">44688 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">45927 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">47061 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckFieldPlaceholdersForHomeInternet(internet-phone, Номер абонента)</span>
+                <span class="method-start">49106 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50582 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">50852 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckFieldPlaceholdersForHomeInternet(internet-sum, Сумма)</span>
+                <span class="method-start">52883 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54252 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">54546 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckFieldPlaceholdersForHomeInternet(internet-email, E-mail для отправки чека)</span>
+                <span class="method-start">56550 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">57748 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">58002 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckFieldPlaceholdersForInstallment(score-instalment, Номер счета на 44)</span>
+                <span class="method-start">59863 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">61404 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">61686 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckFieldPlaceholdersForInstallment(instalment-sum, Сумма)</span>
+                <span class="method-start">63676 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">65215 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">65478 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckFieldPlaceholdersForInstallment(instalment-email, E-mail для отправки чека)</span>
+                <span class="method-start">67468 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68664 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

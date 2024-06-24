@@ -1,5 +1,6 @@
 package Task_L16;
 
+import io.qameta.allure.Epic;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -8,17 +9,15 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 
+@Epic("Форма оплаты. Проверка названий плейсхолдеров.")
 public class PayFormTest {
         public WebDriver driver;
         public WebDriverWait wait;
 
-    @BeforeClass
+    @BeforeMethod
     public void setup() {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         System.setProperty("webdriver.chrome.args", "--disable-logging");
@@ -115,10 +114,8 @@ public class PayFormTest {
         Assert.assertEquals(placeholderText, expectedPlaceholder);
     }
 
-    @AfterClass
+    @AfterMethod
     public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-        }
+        driver.quit();
     }
 }
